@@ -1,0 +1,72 @@
+/* CheckoutPage.css */
+
+.checkout-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color:  #e5edf0;; /* Blue background color */
+  padding: 20px;
+}
+
+.checkout-container h1 {
+  color: rgb(49, 61, 191); /* Purple font colosr */
+  text-decoration: underline;
+  text-align: center; 
+}
+
+.section {
+  background-color: #FFFFFF; /* White background color */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color:  #6f58c1; /* Purple font color */
+  font-family: 'Your Chosen Font', sans-serif; /* Specify your preferred font family */
+  font-size: 1em; /* Adjust the font size as needed */
+}
+
+.section p {
+  color: #000000; /* Black font color, adjust as needed */
+  font-size: 1em
+}
+
+/* CheckoutPage.css */
+
+.payment-section {
+  background-color: #FFFFFF; /* White background color */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-section h2 {
+  color: #2ea94b; /* Purple font color */
+  font-family: 'Your Chosen Font', sans-serif; /* Specify your preferred font family */
+  font-size: 1em; /* Adjust the font size as needed */
+}
+
+payment-section .StripeContainer button {
+  /* Styles for the payment button within StripeContainer */
+  background-color: #6f58c1;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-section .StripeContainer button:hover {
+  background-color: #524291;
+}
+
+.payment-section p {
+  color: #000000; /* Black font color, adjust as needed */
+  font-size: 1em;
+}
+
+/* Add additional styling as needed */
+
+
+/* Add additional styling as needed */
+

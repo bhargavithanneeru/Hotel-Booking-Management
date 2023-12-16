@@ -1,0 +1,76 @@
+/* Base styles for the payment form container */
+.PaymentForm {
+	margin: 0 15px 20px;
+	padding: 0;
+	border: none;
+	will-change: opacity, transform;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
+	border-radius: 4px;
+  }
+  
+  /* Styles for individual rows within the form */
+  .PaymentForm .FormRow {
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+	margin-bottom: 15px; /* Add some bottom margin between rows */
+  }
+  
+  /* Styles for StripeElement with autofill handling */
+  .PaymentForm .StripeElement--webkit-autofill {
+	background: transparent !important;
+  }
+  
+  .PaymentForm .StripeElement {
+	width: 100%;
+	padding: 11px 15px 11px 0;
+  }
+  
+  /* Styles for CardElement container */
+  .PaymentForm .CardElementContainer {
+	color: #ff0000; /* Replace with your desired color */
+  }
+  
+  /* Styles for input fields (first name, last name, address) */
+  .PaymentForm .FormInput {
+	flex: 1; /* Take up remaining space in the row */
+	margin-left: 15px; /* Add some left margin between input fields */
+  }
+  
+  /* Styles for the payment button */
+  .PaymentForm button {
+	display: block;
+	font-size: 16px;
+	width: calc(100% - 30px);
+	height: 40px;
+	margin: 40px 15px 0;
+	background-color: #f6a4eb;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #ffb9f6;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 100ms ease-in-out;
+	will-change: transform, background-color, box-shadow;
+	border: none;
+  }
+  
+  .PaymentForm button:active {
+	background-color: #d782d9;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #e298d8;
+	transform: scale(0.99);
+  }
+  
+  /* Styles for the form container on larger screens */
+  .PaymentForm .App {
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-right: 25%;
+  }
+  
+  /* Styles for centered headings */
+  .PaymentForm h1,
+  .PaymentForm h3 {
+	text-align: center;
+  }
+  

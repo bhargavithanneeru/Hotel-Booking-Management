@@ -1,0 +1,29 @@
+/* navbar.css */
+.navbar {
+  height: 50px;
+  background-color: #006080;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+}
+
+/* Adjust the margin-left to create space between buttons */
+.navButton {
+  margin-left: 10px; /* Adjust the margin as needed */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #006080;
+}
