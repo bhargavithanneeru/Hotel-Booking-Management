@@ -1,0 +1,42 @@
+// profile-page.scss
+
+.profile-page {
+    max-width: 600px;
+    margin: 0 auto;
+  
+    h1 {
+      text-align: center;
+      color: #6f58c1;
+    }
+  
+    .profile-details {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column; // Update to use flex column layout
+      align-items: center; // Center the content horizontally
+  
+      .table-row {
+        width: 100%; // Ensure the rows take full width
+        box-sizing: border-box; // Include padding and border in the width
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+  
+        .title {
+          flex-basis: 40%;
+          font-weight: bold;
+          color: #6f58c1;
+        }
+  
+        .value {
+          flex-basis: 60%;
+        }
+      }
+  
+      .profile-image {
+        max-width: 200px;
+        margin-top: 20px; // Add margin for spacing
+      }
+    }
+  }
+  
